@@ -6,10 +6,22 @@ memcachedfs uses `CMake`.
 
 ### From source
 
-    git clone https://github.com/OKayInc/memcachefs
-    cd memca
-    mkdir build-libmemcached
-    cd $_
-    cmake ../libmemcached
+    git clone https://github.com/OKayInc/memcachedfs
+    cd memcachedfs
+    mkdir build
+    cd buid
+    cmake ..
     make
-    sudo make install
+    make install
+
+#### Requirements
+* libmemcached 1.0
+* libfuse 2.9+
+
+## Known Issues
+* memcachedfs uses libmemcached to interact with the memcached daemon. libmemcached's memcached_dump function doesn't always return all the object keys.
+* the df command doesn't report the exact used space.
+
+## TODO
+* Linux mount wrappers.
+* Better internal structures to handle memcached information.
