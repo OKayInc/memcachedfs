@@ -25,3 +25,4 @@ memcachedfs uses `CMake`.
 ## TODO
 * Linux mount wrappers.
 * Better internal structures to handle memcached information.
+* Configurable expiration time.
