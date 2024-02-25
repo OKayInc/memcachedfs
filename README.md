@@ -1,4 +1,4 @@
-# memcachefs
+# MemcachedFS
 Inspired by the original work of Tsukasa Hamano, [memcachefs](https://memcachefs.sourceforge.net/), OKay INC proudly presents the Memcached FUSE Filesystem.
 
 ## Installing
