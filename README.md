@@ -28,4 +28,4 @@ memcachedfs uses `CMake`.
 * Configurable expiration time.
 
 ## More Information
-Feel free to read [Inside Out MecachedFS Artice](https://inside-out.xyz/projects/memcached-fuse-filesystem.html).
+Feel free to read [Inside Out MecachedFS Article](https://inside-out.xyz/projects/memcached-fuse-filesystem.html).
