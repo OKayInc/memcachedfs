@@ -21,5 +21,5 @@ endif()
 
 target_link_libraries(memcachedfs PUBLIC ${LIBFUSE_LIBRARIES})
 
-install(FILES mount.memcachedfs RUNTIME DESTINATION sbin)
+install(FILES mount.memcachedfs DESTINATION sbin)
 install(TARGETS memcachedfs RUNTIME DESTINATION bin)
