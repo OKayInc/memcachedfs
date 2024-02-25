@@ -23,7 +23,7 @@ memcachedfs uses `CMake`.
 * the df command doesn't report the exact used space.
 
 ## TODO
-* Linux mount wrappers.
+* ~~Linux mount wrappers.~~
 * Better internal structures to handle memcached information.
 * Configurable expiration time.
 
