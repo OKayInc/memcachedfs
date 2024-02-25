@@ -26,3 +26,6 @@ memcachedfs uses `CMake`.
 * Linux mount wrappers.
 * Better internal structures to handle memcached information.
 * Configurable expiration time.
+
+## More Information
+Feel free to read [Inside Out MecachedFS Artice](https://inside-out.xyz/projects/memcached-fuse-filesystem.html).
